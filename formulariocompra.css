@@ -1,0 +1,74 @@
+
+
+/* Aplica estilos de Bootstrap a los elementos específicos del formulario */
+body {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+
+/* Estilos para los spans con la clase inicio */
+.inicio {
+    font-size: 16px; /* Puedes ajustar el tamaño del texto según tus preferencias */
+    font-weight: bold; /* Puedes ajustar el peso del texto según tus preferencias */
+}
+
+/* Otros estilos para mejorar la apariencia del formulario */
+form {
+    max-width: 600px; /* Ajusta el ancho máximo del formulario según tus preferencias */
+    padding: 20px; /* Agrega un espacio interno alrededor del formulario */
+    margin-bottom: 2rem;
+    margin:auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
+#btn {
+    width: 100%;
+    margin-top: 10px; /* Agrega un espacio superior a los botones */
+}
+#btnn{
+    width: 100%;
+    margin-top: 10px; /* Agrega un espacio superior a los botones */
+}
+#btnnn {
+    width: 100%;
+    margin-top: 10px; /* Agrega un espacio superior a los botones */
+}
+
+
+
+/* Añade espacio entre los botones */
+button + button {
+    margin-left: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
