@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap');
+#btn-comprar {
+    font-weight: bold;
+    color: red;
+    /* Agrega otros estilos de tu elección para resaltar el enlace seleccionado */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#img-carrito {
+    width: 42px;
+    height: 42px;
+    fill: #000000;
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+
+
+.header{
+    display:flex;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+}
+
+
+.header .navbar ul li{
+    display:inline-block;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    color: #1D1D1B;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: lightskyblue;
+}
+
+.header .navbar ul li {
+    display: inline-block;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.submenu{
+    position: relative;
+    display: inline-block;
+    min-height: 70vh;
+}
+
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: static;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: lightsteelblue;
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    color: blanchedalmond;
+}
+
+.borrar{
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: 800;
+}
+
+
+
+
+.header .logo{
+    display: inline-block;
+    font-size: 20px;
+    color: lightskyblue;
+    text-transform: uppercase;
+    font-weight: 800;
+    align-items: center;
+    min-height: 70vh;
+    position:static;
+}
+
+.header-content{
+    display: flex;
+    position:static;
+    margin-top: 70px; /* Ajusta el valor según sea necesario para que la línea se muestre debajo de la barra de navegación */
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    right: 160px;
+    align-items: flex-start;
+    top: 0;
+    
+}
+.header-txt img{
+    width: 100%;
+    height: 100%;
+}
+.header-txt{
+    display: flex;
+    align-items: center;
+    width:150%;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+ }
+ .header-txt h1{
+    font-size: 50px;
+    line-height: 65px;
+    color: #1D1D1B;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-right: 20px;
+
+    
+}
+
+
+
+
+
+.abajo .btn-primary {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+.abajo .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.header-txt span{
+    color: rgb(92, 176, 228);
+    align-content: center;
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 54px;
+    border-radius: 25px;
+    background-color: rgb(151, 109, 31);
+    font-size: 16px;
+    color: rgb(7, 22, 192);
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-1:hover{
+    background-color:rgb(160, 69, 69);
+}
+
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #2498ad;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 16px;
+    color: #1f1f22;
+    margin-bottom: 45px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+
+/*verificar */
+
+
+
+
+
+
+
+
+
+/**/
+
+.products{
+    padding: 0 0 50px 0;
+    text-align: center;
+    color: rgb(81, 204, 163);
+    font-size: 20px;
+}
+
+.section{
+    margin-top: 55px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+
+
+.product-txt h4{
+    font-size: 20px;
+    color: #0d4497;
+    margin-bottom: 10px;
+
+}
+
+.product-txt p{
+    margin-bottom: 25px;
+}
+
+.precio{
+    font-size: 15px;
+    color: rgb(45, 66, 187);
+}
+
+.btn-3{
+    display: inline-block;
+    padding: 5px 25px;
+    background-color: lightskyblue;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btn-3:hover{
+    background-color: rgb(112, 180, 223);
+}
+/* estilo menu*/
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icono {
+    width: 20px; /* Ajusta el tamaño según tus preferencias */
+    margin-right: 10px; /* Espacio entre el icono y el texto "Logo" */
+}
+
+
+
+
+
+/*estilo para el footer */
+        .pie {width: 100%; padding: 40px 0; background: white; margin-top: 40px;}
+        .pie footer {max-width: 1200px; margin: auto;}
+        .pie footer .redes {display: flex; justify-content: center; margin-top: 20px;}
+        .pie footer .redes .icon-redes-footer {font-size: 20px; margin: 20px; background: #efefef; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center; border-radius: 50%; color: #a2a2a2;}
+        footer .redes .fa-square-facebook:hover {background: #41579A; color: white;}
+        footer .redes .fa-google:hover {background: #DE4C34; color: #fff;}
+        footer .redes .fa-square-instagram:hover {background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443ab); color: #fff;}
+        footer .redes .fa-whatsapp:hover {background: linear-gradient(to top right, #f7f6f4, #e6cdbe, #251617, #63f5b1, #4fc963, #199209); color: #fff;}
+        footer .redes .fa-envelope:hover {background: linear-gradient(to top right, #f7f6f4, #e6cdbe, #251617, #f5a563, #c94f78, #df0e0e); color: #fff;}
+        .pie footer hr {margin-top: 20px; border: none; height: 2px; background: #d1cdcd;}
+        .pie h4 {text-align: center; margin-top: 20px; color: #afadad; font-weight: 500px;}
+        .footer {padding: 50px 0; background-color: lightskyblue;}
+        .footer .link {color: black;}
+        .link a {color: #4f14f3; font-size: 16px; display: flex; margin-bottom: 10px; justify-content: space-between;}
+        .footer {background-color: #f1f1f1; padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+        .footer .link {width: 25%; margin-bottom: 20px;}
+        .footer h3 {font-size: 18px; margin-bottom: 10px;}
+        .footer ul {list-style: none; padding: 0; margin: 0;}
+        .footer ul li {margin-bottom: 5px;}
+        .footer ul li a {text-decoration: none; color: #333;}
+        .footer ul li a:hover {color: #007bff;}
+        .footer img {margin-right: 10px;}
+        .footer::after {content: ""; display: table; clear: both;}
+
+
+ /* Estilo general para las secciones */
+section {
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+/* Estilo para los productos */
+.product-txt {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    /* height: 350px; Quitar la altura fija */
+    overflow: hidden;
+}
+
+.product-txt h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-txt p {
+    margin-bottom: 8px;
+}
+
+.product-txt .precio {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Ajustes de estilo para las imágenes */
+.img-fluid {
+    width: 100%; /* Hacer que todas las imágenes tengan el 100% de ancho */
+    height: 150px; /* Establecer una altura fija para todas las imágenes */
+    object-fit: cover; /* Escalar y recortar la imagen para que se ajuste a la caja */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilo para la clase que contiene los productos */
+.ropa {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilo para cada producto dentro de la clase .ropa */
+.ropa .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+/* Opcional: Ajusta estilos específicos del contenido dentro de cada producto */
+.ropa .col-md-4 .ropa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Establece la altura al 100% para que el contenido se ajuste y no se corte */
+}
+
+/* Opcional: Estilo para la imagen dentro de cada producto */
+.ropa .col-md-4 .ropa img {
+    max-width: 100%;
+    height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
+}
+
+/* Opcional: Ajusta estilos específicos del botón dentro de cada producto */
+.ropa .col-md-4 .ropa .btn {
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+/* Ajustes de estilo para los botones */
+.btn {
+    margin-top: 10px;
+}
+
+/* Ajustes de estilo para los encabezados de sección */
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Ajustes de estilo para el contenedor de productos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Ajustes de estilo para las columnas */
+.row .col-md-4 {
+    margin-bottom: 20px;
+}
+
+
